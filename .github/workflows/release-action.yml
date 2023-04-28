@@ -12,7 +12,7 @@ jobs:
     uses: ./.github/workflows/release-solution-to-prod.yml
     with:
       #You can specify the solution name here
-      solution_name: ALMLab
+      solution_name: GHActionSolution
       #Update your values here
       BUILD_ENVIRONMENT_URL: 'https://orgf375d36e.crm.dynamics.com/'
       PRODUCTION_ENVIRONMENT_URL: 'https://orgcfaeac87.crm.dynamics.com/'
